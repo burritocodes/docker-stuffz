@@ -1,1 +1,3 @@
-/Users/bbommarito/.oh-my-zsh/custom/plugins/docker.plugin.zsh
+function dcbundle() {
+    docker-compose run --rm $1 bundle install -j8
+}
